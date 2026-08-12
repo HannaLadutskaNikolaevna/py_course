@@ -1,14 +1,11 @@
-def show():
-    print("Отображение списка счетов")
-def add():
-    print("Добавить счет")
-def delete():
-    print("Удалить счет")
-def change():
-    print("Изменить счет")
-    
-if __name__ == '__main__':
-    show()
-    add()
-    delete()
-    change()
+def Show():
+    print("Отображаю список счетов..")
+
+def Add():
+    print("Счет успешно добавлен")
+
+def Delete():
+    print("Счет удален!")
+
+def Change():
+    print("Счет изменен")
