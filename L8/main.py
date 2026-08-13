@@ -1,4 +1,5 @@
 def hpwmanyletters(input: str):
+    
     if len(input) < 1:
         return "no data"
     elif len(input) < 3:
